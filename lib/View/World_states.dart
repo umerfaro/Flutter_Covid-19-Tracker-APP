@@ -153,6 +153,7 @@ class _WorldStatesScreenState extends State<WorldStatesScreen>
 }
 
 class ReuseableRow extends StatelessWidget {
+
   String name, value;
   ReuseableRow({super.key, this.name = "", required this.value});
 
